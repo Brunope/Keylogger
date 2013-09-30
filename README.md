@@ -1,6 +1,6 @@
 Keylogger
 =========
-A Python keylogger that monitors for keyboard events, writes to a log file, and then uploads to an email address.
+A keylogger written in Python using pyHook.
 ---------
 Dependencies
 ------------
